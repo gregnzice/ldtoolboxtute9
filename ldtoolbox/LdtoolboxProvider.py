@@ -79,7 +79,7 @@ class LdtoolboxProvider(QgsProcessingProvider):
         Loads all algorithms belonging to this provider.
         """
         self.algs = [Qgs3EpanetAlgorithm(),Qgs3PostProcessEpanet(),Qgs3SwmmAlgorithm(),Qgs3PlotSwmm(),SURV319Tute5()]
-        # For Lab 2, you need to add your Lab 2 stormwater modelling tool to the end of the list in Line 81 to register your
+        # For Lab 1, you need to add your Lab 1 stormwater modelling tool to the end of the list in Line 81 to register your
         # tool in the ldtoolbox so it shows up as being available in QGIS.
         for alg in self.algs:
             self.addAlgorithm( alg )
